@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.selectCountry:not([size]) {
+  @apply bg-icon-country bg-no-repeat;
+  background-size: 1.5rem auto;
+  background-position: 0.5rem center;
+  padding-left: 2.5rem;
+}
